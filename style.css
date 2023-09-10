@@ -1,5 +1,7 @@
+/* Memberikan akses penggunaan font Lexend (font Google) */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
 
+/* Memberikan design CSS untuk keseluruhan tampilan */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,17 +11,20 @@
     transition: all 0.3s;
 }
 
+/* Memberikan design CSS untuk class "main-container" */
 .main-container {
     width: 1200px;
     margin: 0 auto;
 }
 
+/* Memberikan design CSS untuk class "header" */
 .header{
     position: fixed;
     background-color: white;
     width: 100%;
 }
 
+/* Memberikan design CSS untuk tag li dan a */
 li, a {
     font-family: "Lexend", sans-serif;
     font-weight: 500;
@@ -28,6 +33,7 @@ li, a {
     text-decoration: none;
 }
 
+/* Memberikan design CSS untuk tag header */
 header{
     display: flex;
     justify-content: space-between;
@@ -38,27 +44,33 @@ header{
 
 }
 
+/* Memberikan design CSS untuk class "logo" */
 .logo  {
     cursor: none;
 }
 
+/* Memberikan design CSS untuk class "nav_links" */
 .nav_links{
     list-style: none;
 }
 
+/* Memberikan design CSS untuk class "nav_links" dengan tag li */
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
+/* Memberikan design CSS untuk class "nav_links" dengan tag li dan a*/
 .nav_links li a{
     transition: all 0.3s ease 0s;
 }
 
+/* Memberikan design CSS untuk class "nav_links" dengan tag li dan a pada saat kursor mendekati elemen (hover)*/
 .nav_links li a:hover{
     color: #FA4753;
 }
 
+/* Memberikan design CSS untuk class "hero-container" */
 .hero-container{
     display: flex;
     height: 1000px;
@@ -66,6 +78,7 @@ header{
     font-family: 'Lexend', sans-serif;
 }
 
+/* Memberikan design CSS untuk class "hero-container" dengan tag div */
 .hero-container > div{
     width: 50%;
     display: flex;
@@ -74,6 +87,7 @@ header{
     justify-content: center;
 }
 
+/* Memberikan design CSS untuk class "hero-container" dengan tag h1 */
 .hero-container h1 {
     font-size: 60px;
     width: 600px;
@@ -81,16 +95,19 @@ header{
     font-weight: bold;
 }
 
+/* Memberikan design CSS untuk class "hero container" dengan tag p */
 .hero-container p {
     font-size: 23px;
 }
 
+/* Memberikan design CSS untuk class "hero-container" dengan tag img */
 .hero-container > img{
     width: 50%;
     height: 500px;
     align-self: center;
 }
 
+/* Memberikan design CSS untuk tag button */
 button {
     padding: 10px;
     width: 150px;
@@ -105,20 +122,24 @@ button {
     font-size: 20px;
 }
 
+/* Memberikan design CSS untuk class "porfile" */
 .profile {
     width: 100%;
     padding: 100px 0px;
 }
 
+/* Memberikan design CSS untuk class "profile" dengan tag img */
 .profile img {
     height: auto;
     width: 450px;
 }
 
+/* Memberikan design CSS untuk class "profile-text" */
 .profile-text {
     width: 400px;
 }
 
+/* Memberikan design CSS untuk class "main" */
 .main {
     width: 1130px;
     max-width: 95%;
@@ -128,6 +149,7 @@ button {
     justify-content: space-around;
 }
 
+/* Memberikan design CSS untuk class "profile-text" dengan tag h2 */
 .profile-text h2 {
     color: #17181C;
     letter-spacing: 2px;
@@ -136,6 +158,7 @@ button {
     text-transform: capitalize;
 }
 
+/* Memberikan design CSS untuk class "profile-text" dengan tag h5 */
 .profile-text h5{
     color: #17181C;
     letter-spacing: 2px;
@@ -144,6 +167,7 @@ button {
     text-transform: capitalize;
 }
 
+/* Memberikan design CSS untuk class "profile-text" dengan tag p */
 .profile-text p{
     color: #17181C;
     letter-spacing: 1px;
@@ -152,44 +176,52 @@ button {
     margin-bottom: 45px;
 }
 
+/* Memberikan design CSS untuk section "profile" */
 #profile {
     background-color: #fbfbfb;
     padding: 6rem 0;
 }
 
+/* Memberikan design CSS untuk section "services" */
 #services {
     background-color: #fbfbfb;
     padding: 6rem 0;
 }
 
+/* Memberikan design CSS untuk class "section-title */
 .section-title {
     margin: 1rem 0 4rem;
     text-align: center;
     font-size: 2rem;
 }
 
+/* Memberikan design CSS untuk class "services-title */
 .services-title{
     text-align: center;
 }
 
+/* Memberikan design CSS untuk class "grid-3" */
 .grid-3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
 
+/* Memberikan design CSS untuk class "grid-4" */
 .grid-4{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
 
+/* Memberikan design CSS untuk class "grid-5" */
 .grid-5{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
 
+/* Memberikan design CSS untuk class "services" */
 .services{
     padding: 3rem 2rem;
     text-align: center;
@@ -197,12 +229,14 @@ button {
     border-radius: 0.7rem;
 }
 
+/* Memberikan design CSS untuk class "services" dengan tag h4 */
 .services h4{
     margin: 1.5rem 0;
     font-weight: 500;
     font-size: 1.05rem;
 }
 
+/* Memberikan design CSS untuk class "section-icon" */
 .services-icon {
     background: #f5f3fe;
     width: fit-content;
@@ -211,10 +245,12 @@ button {
     border-radius: 0.5rem;
 }
 
+/* Memberikan design CSS untuk class "service-icon" dengan tag svg */
 .service-icon svg {
     fill: #FA4753;
 }
 
+/* Memberikan design CSS untuk class "service-icon" */
 .service-icon {
     background: #fbefef;
     width: fit-content;
@@ -223,34 +259,36 @@ button {
     border-radius: 0.5rem;
 }
 
-.service-icon svg {
-    fill:#FA4753;
-}
-
+/* Memberikan design CSS untuk section "portfolios" */
 #portfolios {
     padding: 6rem 0;
 }
 
+/* Memberikan design CSS untuk class "portfolio" */
 .portfolio {
     border-radius: 0.7rem;
     overflow: hidden;
     border: 1px solid #f1f1f1;
 }
 
+/* Memberikan design CSS untuk class "portfolio-class" */
 .portfolio-cover {
     height: 250px;
 }
 
+/* Memberikan design CSS untuk class "portfolio" dengan tag img */
 .portfolio img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* Memberikan design CSS untuk class "portfolio-info" */
 .portfolio-info {
     padding: 2rem 1.5rem;
 }
 
+/* Memberikan design CSS untuk class "portfolio-title" */
 .portfolio-title {
     display: flex;
     justify-content: space-between;
@@ -258,39 +296,23 @@ button {
     gap: 1rem;
 }
 
+/* Memberikan design CSS untuk class "portfolio" dengan tag h4 */
 .portfolio h4 {
     font-weight: 500;
     font-size: 1.05rem;
 }
 
+/* Memberikan design CSS untuk class "portfolio-title" dengan tag a dan svg ketika kursor mendekati elemen (hover) */
 .portfolio-title a svg:hover {
     fill: #FA4753;
 }
 
+/* Memberikan design CSS untuk class "portfolio-title" dengan tag a dan svg*/
 .portfolio-title a svg {
     transition: 0.2s ease-in-out;
 }
 
-.portfolio-tags {
-    display: flex;
-    gap: 1rem;
-    margin: 1rem 0;
-}
-
-.portfolio-tags div {
-    font-size: 0.9rem;
-    border: 1px solid #FA4753;
-    padding: 0.4rem 1rem;
-    color: #FA4753;
-}
-
-.portfolio-tags div {
-    font-size: 0.9rem;
-    border: 1px solid #FA4753;
-    padding: 0.4rem 1rem;
-    color: #FA4753;
-}  
-
+/* Memberikan design CSS untuk tag "footer" */
 footer{
     background-color: white;
     box-shadow: 5px 5px 23px lightgray;
@@ -301,6 +323,7 @@ footer{
     
 }
 
+/* Memberikan design CSS untuk class "footer-content" */
 .footer-content{
     display: flex;
     align-items: center;
@@ -309,6 +332,7 @@ footer{
     text-align: center;
 }
 
+/* Memberikan design CSS untuk class "footer-content" dengan tag h3 */
 .footer-content h3{
     font-size: 1.8rem;
     font-weight: 600;
@@ -316,6 +340,7 @@ footer{
     line-height: 3rem;
 }
 
+/* Memberikan design CSS untuk class "footer-content" dengan tag p */
 .footer-content p {
     max-width: 500px;
     margin: 10px auto;
@@ -323,6 +348,7 @@ footer{
     font-size: 14px;
 }
 
+/* Memberikan design CSS untuk class "secials" */
 .socials{
     list-style: none;
     display: flex;
@@ -331,21 +357,25 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 
+/* Memberikan design CSS untuk class "socials" dengan tag li dan img */
 .socials li img{
     margin: 0 20px;
     width: 50px;
 }
 
+/* Memberikan design CSS untuk class "socials" dengan tag a */
 .socials a{
     text-decoration: none;
     color: #17181C;
 }
 
+/* Memberikan design CSS untuk class "socials" dengan tag a dan i */
 .socials a i{
     font-size: 1.1rem;
     transform: color .4s ease;
 }
 
+/* Memberikan design CSS untuk class "socials" dengan tag a ketika kursor mendekati elemen (hover) den i */
 .socials a:hover i{
     color: #17181C;
 }
